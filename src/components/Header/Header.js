@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { IoLogoBitbucket, IoNotifications, IoSearch } from "react-icons/io5";
 import { SiMinutemailer } from "react-icons/si";
-import { AiOutlineMenuUnfold } from "react-icons/ai";
+import { HiMenuAlt1 } from "react-icons/hi";
 
 const Header = () => {
   return (
@@ -31,7 +31,7 @@ const Header = () => {
             <img src="/ava.png" alt="" />
           </AvatarMob>
           <Bugger>
-            <AiOutlineMenuUnfold />
+            <HiMenuAlt1 />
           </Bugger>
         </MobNav>
       </Wrapper>
